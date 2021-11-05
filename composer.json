@@ -12,7 +12,8 @@
     "homepage": "https://github.com/fligno-devs/terrapay-payment",
     "keywords": ["Laravel", "Terrapay", "TerrapayPayment"],
     "require": {
-        "illuminate/support": "~7|~8"
+        "illuminate/support": "~7|~8",
+        "fourello-devs/custom-helper-functions": "@dev"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
