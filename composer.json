@@ -1,6 +1,6 @@
 {
     "name": "fligno-devs/terrapay-payment",
-    "description": "Terrpay Payment API Suite Package for Laravel",
+    "description": "Terrapay Payment API Suite PHP Package for Laravel",
     "license": "MIT",
     "authors": [
         {
@@ -10,15 +10,19 @@
         }
     ],
     "homepage": "https://github.com/fligno-devs/terrapay-payment",
-    "keywords": ["Laravel", "TerrapayPayment"],
+    "keywords": ["Laravel", "Terrapay", "TerrapayPayment"],
     "require": {
         "illuminate/support": "~7|~8"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest",
         "phpunit/phpunit": "~9.0",
         "orchestra/testbench": "~5|~6"
     },
     "autoload": {
+        "files": [
+            "helpers/CustomHelpers.php"
+        ],
         "psr-4": {
             "FlignoDevs\\TerrapayPayment\\": "src/"
         }

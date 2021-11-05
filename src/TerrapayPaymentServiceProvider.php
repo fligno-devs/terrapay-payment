@@ -13,6 +13,7 @@ class TerrapayPaymentServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'fligno-devs');
         // $this->loadViewsFrom(__DIR__.'/../resources/views', 'fligno-devs');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
